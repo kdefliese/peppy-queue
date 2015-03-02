@@ -1,6 +1,6 @@
 h1 {
   font-size: 24px;
-  font-style: sans-serif;
+  font-family: arial;
   text-align: center;
 }
 #mailbox {
@@ -18,25 +18,6 @@ h1 {
   bottom: 2px;
   left: 30%;
   text-align: center;
-}
-#email1 {
-  
-}
-#email2 {
-  left: px;
-  top: px;
-}
-#email3 {
-  left: px;
-  top: px;
-}
-#email4 {
-  left: px;
-  top: px;
-}
-#email5 {
-  left: px;
-  top: px;
 }
 #CSrep {
   position: relative;
@@ -61,14 +42,12 @@ h1 {
   position: relative;
   display: inline-block;
   top: -190px;
-  left: -150px;
+  left: -140px;
 }
-.responsecontent {
-  position: absolute;
-  bottom: 2px;
-  left: 30%;
-  text-align: center;
-  visibility: hidden;
+#responsecontent {
+  position: relative;
+  bottom: 200px;
+  left: -250px;
 }
 .hidden {
   visibility: hidden;
