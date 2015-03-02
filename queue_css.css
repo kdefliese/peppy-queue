@@ -1,0 +1,79 @@
+h1 {
+  font-size: 24px;
+  font-style: sans-serif;
+  text-align: center;
+}
+#mailbox {
+  
+}
+.email {
+  position: relative;
+  display: inline-block;
+  width: 162px;
+  height: 120px;
+  background-image: url(https://openclipart.org/image/200px/svg_to_png/83869/Envelope-closed.png);
+}
+.emailcontent {
+  position: absolute;
+  bottom: 2px;
+  left: 30%;
+  text-align: center;
+}
+#email1 {
+  
+}
+#email2 {
+  left: px;
+  top: px;
+}
+#email3 {
+  left: px;
+  top: px;
+}
+#email4 {
+  left: px;
+  top: px;
+}
+#email5 {
+  left: px;
+  top: px;
+}
+#CSrep {
+  position: relative;
+  display: inline-block;
+  left: 30px;
+}
+#button {
+  background-color: lightblue;
+  margin: auto;
+  font-size: 14px;
+  width: 130px;
+  display: inline-block;
+  border-radius: 5px;
+  position: relative;
+  top: 10px;
+  left: 860px;
+}
+#whitespace {
+  height: 200px;
+}
+#response {
+  position: relative;
+  display: inline-block;
+  top: -190px;
+  left: -150px;
+}
+.responsecontent {
+  position: absolute;
+  bottom: 2px;
+  left: 30%;
+  text-align: center;
+  visibility: hidden;
+}
+.hidden {
+  visibility: hidden;
+}
+.visible {
+  visibility: visible;
+  display: inline-block;
+}
